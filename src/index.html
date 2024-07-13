@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Furniture Shop</title>
+    <link rel="stylesheet" href="output.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body class="bg-[#FCF8F3]">
+    <div class="fixed w-2/3 h-[774px] bg-[#F9F1E7] -z-10" ></div>
+    <header class="sticky z-20">
+        <div class="pt-2 mx-4 flex items-center md:pt-11 md:mx-20">
+            <button id="nav-toggle" class="md:hidden flex flex-col items-center mx-1">
+                <div class="w-6 bg-black h-1 rounded-full"></div>
+                <div class="w-6 bg-black h-1 my-1 rounded-full"></div>
+                <div class="w-6 bg-black h-1 rounded-full"></div>
+            </button>
+            <div class="text-2xl font-semibold ">Funiro.</div>
+            <nav class="z-30 md:block hidden">
+                <ul class="flex justify-center items-center gap-2 mx-12">
+                    <li class="cursor-pointer group relative px-4 py-2  hover:bg-[#FCF8F3] transition-colors ease-in-out">
+                        <div class="flex">
+                            <span>Products</span>
+                            <span class="inline group-hover:hidden"><i class="px-2 fas fa-angle-down"></i></span>
+                            <span class="hidden group-hover:inline"><i class="px-2 fas fa-angle-up"></i></span>
+                        </div>
+                        <ul class="group-hover:block hidden absolute left-0 top-10 bg-[#FCF8F3]  shadow-lg">
+                            <li class="px-4 py-2 whitespace-nowrap hover:bg-zinc-200 transition-all ease-in-out">Product 1</li>
+                            <li class="px-4 py-2 whitespace-nowrap hover:transition-all hover:bg-zinc-200 ease-in-out">Product 2</li>
+                        </ul>
+                    </li>
+                    <li class="cursor-pointer group relative px-4 py-2  hover:bg-[#FCF8F3] transition-colors ease-in-out">
+                        <span>Rooms</span>
+                        <!-- <i class="px-2 fas fa-angle-down"></i> -->
+                    </li>
+                    <li class="cursor-pointer group relative px-4 py-2  hover:bg-[#FCF8F3] transition-colors ease-in-out">
+                        <span>Inspirations</span>
+                    </li>
+                </ul>
+            </nav>
+            <div class="relative flex flex-1 mx-2">
+                <i class="fa fa-search absolute left-4 top-1/2 transform -translate-y-1/2 tebg-[#FCF8F3]"></i><input class="pl-12 p-3 focus:outline-0 text-sm min-w-[280px] w-full " type="text" name="search" id="search" placeholder="Search for minimalist chair" >
+            </div>
+            <div class="flex justify-end gap-8">
+                <i class="fas far fa-heart"></i>
+                <i class="fas fa-shopping-cart"></i>
+                <i class="fa far fa-user-circle"></i>
+            </div>
+        </div>
+        
+    </header>
+    <!-- Hero Card -->
+    <div class="min-w-[490px] min-h-[550px]">
+
+    </div>
+    <main >
+        
+    </main>
+</body>
+</html>
